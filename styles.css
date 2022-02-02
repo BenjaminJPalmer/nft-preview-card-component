@@ -19,6 +19,7 @@ body {
 
 .container {
   max-width: 300px;
+  padding: 20px;
   background-color: #14253d;
   display: flex;
   flex-direction: column;
@@ -28,7 +29,45 @@ body {
 }
 
 .hero-img {
-  max-width: 90%;
+  max-width: 100%;
+  border-radius: 5%;
+}
+
+h1 {
+  font-size: 24px;
+  color: white;
+  align-self: flex-start;
+  font-weight: 600;
+}
+
+.text, #time {
+  color: #8bacda;
+  font-weight: 300;
+}
+
+.flex-row, .info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.price > img, .time > img {
+  padding-right: 5px;
+}
+
+#price {
+  color: #00fff7;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #2f415b;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
