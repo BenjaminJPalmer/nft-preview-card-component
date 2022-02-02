@@ -1,0 +1,30 @@
+// Primary colours
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+// Neutral colours
+$main-bg: hsl(217, 54%, 11%);
+$card-bg: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+// Font
+:root { 
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+body {
+    background-color: $main-bg;
+}
+
+.wrapper {
+    margin: auto;
+}
+
+.container {
+    max-width: 300px;
+}
