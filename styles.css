@@ -8,14 +8,25 @@ p {
 
 body {
   background-color: #0d192b;
+  height: 100%;
 }
 
 .wrapper {
-  margin: auto;
+  margin: 75px auto;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   max-width: 300px;
+  background-color: #14253d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img {
+  max-width: 90%;
 }
 
 /*# sourceMappingURL=styles.css.map */
